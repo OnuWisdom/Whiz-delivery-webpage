@@ -1,0 +1,108 @@
+* {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: #f6edef;
+}
+
+/* Header */
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* padding-top: 20px; */
+	padding: 20px 80px;
+}
+
+#menu-button {
+	width: 30px;
+	height: 20px;
+	/* padding-left: 50px; */
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+	/* margin-right: 80px; */
+}
+
+li {
+	font-size: 15px;
+}
+
+ul a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+.active {
+	color: #e56981;
+	font-weight: bold;
+}
+
+/* SECTION */
+#contents {
+	display: flex;
+	padding: 0 80px;
+	align-items: center;
+}
+
+#left-panel {
+	flex-basis: 50%;
+}
+
+#left-panel h1 {
+	font-size: 50px;
+}
+
+#left-panel p {
+	font-size: 20px;
+	/* margin-right: 50px; */
+}
+
+#buttons {
+	display: flex;
+	padding-top: 30px;
+}
+
+#learn-more {
+	background-color: white;
+	text-decoration: none;
+	color: #e56981;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 40px;
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: #e56981;
+	margin-right: 30px;
+}
+
+#sign-up {
+	background-color: #e56981;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 50px;
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: #e56981;
+}
+
+#illustration {
+	width: 450px;
+}
+
+#right-panel {
+	margin-left: 100px;
+}
